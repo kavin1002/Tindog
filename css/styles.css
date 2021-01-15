@@ -1,0 +1,142 @@
+#title{
+  background-color: #ff4c68;
+
+}
+#heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:#ffff;
+  padding-bottom: 40px;
+}
+#fluidcontainer{
+  padding: 3% 15%;
+}
+#brand{
+  font-size: 40px;
+  color: #ffff;
+  font-weight: bolder;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+.nav-item{
+  margin: 30px;
+}
+.iphoneimage{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 1
+}
+#features{
+  padding: 7% 15%;
+  margin: 0;
+  background-color: #ffff;
+  position: relative;
+  z-index: 2;
+
+}
+.feature-box{
+
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  padding-bottom: 30px;
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+
+  color:#ffff;
+}
+h2{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3 rem;
+  line-height: 1.5;
+}
+.dog-image{
+  border-radius: 100px;
+  width: 15%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom:5%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 25%;
+}
+@media (max-width:1028px) {
+  .iphoneimage{
+    position: static;
+    padding-top: 30px;
+    width: 60%;
+    transform: rotate(0);
+  }
+#title{
+  text-align: center;
+}
+}
+.price-heading{
+  color: black;
+}
+.card-body{
+  color: black;
+}
+#pricing{
+
+text-align: center;
+ padding: 100px;
+
+}
+.tricard{
+   padding: 3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+
+}
+.cta-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  color:#ffff;
+
+  text-align: center;
+  padding: 50px 200px 50px;
+}
+.down-btn{
+  padding-bottom: 50px;
+
+
+}
+#footer{
+  background-color: #ffff;
+  text-align: center;
+  padding: 100px 0;
+}
+.lgo{
+  padding: 10px;
+}
+.final-logo{
+  color: black;
+}
