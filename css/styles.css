@@ -113,16 +113,16 @@ text-align: center;
 }
 #cta{
   background-color: #ff4c68;
-
+  text-align: center;
+  padding: 50px 200px 50px;
 }
-.cta-text{
+.cta-heading{
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
   font-size: 3.5rem;
+  line-height: 1.5;
   color:#ffff;
-
-  text-align: center;
-  padding: 50px 200px 50px;
+  padding-bottom: 30px;
 }
 .down-btn{
   padding-bottom: 50px;
