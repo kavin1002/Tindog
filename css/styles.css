@@ -114,7 +114,7 @@ text-align: center;
 #cta{
   background-color: #ff4c68;
   text-align: center;
-  padding: 50px 200px 50px;
+
 }
 .cta-heading{
   font-family: 'Montserrat', sans-serif;
@@ -122,13 +122,13 @@ text-align: center;
   font-size: 3.5rem;
   line-height: 1.5;
   color:#ffff;
-  padding-bottom: 30px;
-}
-.down-btn{
-  padding-bottom: 50px;
 
-
+  padding: 50px 200px 30px;
 }
+.down-btnn{
+  /* padding: 50px 200px 50px; */
+}
+
 #footer{
   background-color: #ffff;
   text-align: center;
@@ -139,4 +139,39 @@ text-align: center;
 }
 .final-logo{
   color: black;
+}
+@media (max-width:790px) {
+  .cta-heading{
+    color: #ffff;
+    font-size: 2.5rem;
+    padding: 50px 200px 50px;
+  }
+  .down-btnn{
+    width: 50%;
+    margin: 20px;
+    /* padding: 50px 200px 50px; */
+  }
+}
+/* @media (max-width:650px) {
+  .cta-heading{
+    color: black;
+    font-size: 2rem;
+  }
+  .down-btnn{
+    padding-right: 130px;
+    margin: 20px;
+  }
+} */
+@media (max-width:650px) {
+  .cta-heading{
+    color: #ffff;
+    font-size: 2rem;
+    padding: 50px 80px 50px;
+  }
+  .down-btnn{
+    padding-right: 130px;
+    margin: 20px;
+  padding-right: 20px;
+  }
+
 }
